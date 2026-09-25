@@ -78,6 +78,21 @@ const deleteNotesControler = async(req ,res)=>{
 
 
 }
+const updatesingleNotescontroles = async(req ,res)=>{
+
+  const id = req.params.id;
+  let body = req.body;
+
+
+  const updatedNotes = await noteSModel.findByIdAndUpdate(id ,body,{new:true})
+
+
+  return res.status(200).json({
+    message:"note updates success fully ",
+    data:updatedNotes
+  })
+
+}
 
 
 
@@ -86,5 +101,6 @@ module.exports = {
   getAllNotesControles,
   getOneNotes,
   updateNotescontroles,
-  deleteNotesControler
+  deleteNotesControler,
+  updatesingleNotescontroles
 }
