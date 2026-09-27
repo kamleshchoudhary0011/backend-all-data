@@ -23,6 +23,7 @@ const handelSumbit = async(e) =>{
 
   if(updateID){
       let res = await axios.put(`http://localhost:3000/notes/${updateID}`, formvalue)
+      console.log(res);
   }else{
 
  let res = await axios.post("http://localhost:3000/notes/create", formvalue)
