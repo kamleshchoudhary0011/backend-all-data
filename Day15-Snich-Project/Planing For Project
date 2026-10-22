@@ -1,0 +1,27 @@
+
+/*
+1 User Can See all the Products 
+2 User can add any Products into the Card
+3 A User Can have onew cart at any moment of the time,
+4 Adding the some Products into the card increase the quantity insidead of adding another entery for the same Project 
+5 user will add the product with size (eg. xs s m l xl xxl )into the Card
+6 If Any size is  currently out of stock show that size to user to user but label it Unavailable
+7 Seller can Unlist any Products
+8 A seller can list all the product on the Dashboard 
+9 In the Card Store the Refrence of the Products with size and quantity. Not the entire copy of product
+10 If a user requedt to the seller Api then return the 403 status code 
+11 If a Gest User request on the Protected  API then return the 401 status code 
+
+
+
+    ========>>>>>>   note include this project Feature....
+1 live tracking of the product 
+2 Payment Gateway integration
+3 Refund Policy
+4 Customer Support 
+5 Return Feature.
+
+
+
+
+*/
